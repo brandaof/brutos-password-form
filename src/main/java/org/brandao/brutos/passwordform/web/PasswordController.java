@@ -1,6 +1,5 @@
 package org.brandao.brutos.passwordform.web;
 
-import javax.inject.Singleton;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
@@ -13,7 +12,6 @@ import org.brandao.brutos.passwordform.entity.User;
 import org.brandao.brutos.validator.ValidatorException;
 import org.brandao.brutos.web.RequestMethodTypes;
 
-@Singleton
 @Action(value="/", view=@View("users/passForm"))
 public class PasswordController {
 
