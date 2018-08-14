@@ -18,7 +18,7 @@ public class PasswordController {
 	@Action(value="/")
 	@RequestMethod(RequestMethodTypes.POST)
 	@View("users/passSuccess")
-	@ResponseErrors(code=200, view="users/passForm")
+	@ResponseErrors(view="users/passForm")
 	public void sign(@Valid	@NotNull @Basic(bean="user")User user) throws ValidatorException{
 		//check the user
 	}
