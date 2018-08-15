@@ -10,7 +10,7 @@ import org.brandao.brutos.annotation.web.RequestMethod;
 import org.brandao.brutos.annotation.web.ResponseErrors;
 import org.brandao.brutos.passwordform.entity.User;
 import org.brandao.brutos.validator.ValidatorException;
-import org.brandao.brutos.web.RequestMethodTypes;
+import org.brandao.brutos.annotation.web.RequestMethodTypes;
 
 @Action(value="/", view=@View("users/passForm"))
 public class PasswordController {
